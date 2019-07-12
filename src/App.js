@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import EmbedsElement from "./EmbedsElement";
+import RegisterNotify from "./RegisterNotify";
 
 function App() {
   return (
@@ -20,16 +21,11 @@ function App() {
               <div className="request-notify">
                   <p>Wanted to be notified when we launch the amazing application?</p>
               </div>
-              <div className="notify-outer-container">
-                  <input type="email" className="form-control email-field" placeholder="Enter your email"></input>
-                  <div className="btn-submit-container">
-                      <button type="submit" class="btn btn-primary">Notify me</button> 
-                  </div>                     
-              </div>          
+              <RegisterNotify />         
             </div>
       </div>
       <div className="col-sm-6 center video-embed-container">
-        <EmbedsElement></EmbedsElement>
+        <EmbedsElement />
       </div>
     </div>
   );

@@ -43,8 +43,8 @@
   min-width: 100%;
   min-height: 100%;
 
-  /* background-image: url("./images/04.jpg") */
-  background-color: #2E97A1;
+  background-image: url("./images/01.jpg")
+  /* background-color: #2E97A1; */
 }
 
 .video-embed-container {
@@ -58,6 +58,10 @@
 .info-child-container {
   width: 100%;
   text-align: center;
+}
+
+.app-name {
+  color: #2E97A1;
 }
 
 .headline-section {
@@ -85,4 +89,9 @@
 .btn-submit-container {
   float: left;
   margin-left: 5px;
+}
+
+.btn-register,  .btn-register:hover{
+  background-color: #2E97A1 !important;
+  border-color: #2E97A1 !important;
 }

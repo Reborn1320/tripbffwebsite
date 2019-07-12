@@ -8404,6 +8404,16 @@ react-toastify@5.1.0:
     prop-types "^15.7.2"
     react-transition-group "^2.6.1"
 
+react-toastify@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-5.3.1.tgz#7438eb0d284cb992d6c485b00b539bcb362c0868"
+  integrity sha512-R6WVGHQ/kMpqq4Uwsybuo95hxNfaWEN713++ob3QC9674TdBrXEBa0B+5mutLT/O7ShOvHAwfVOzuQFPGAFm5Q==
+  dependencies:
+    "@babel/runtime" "^7.4.2"
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+    react-transition-group "^2.6.1"
+
 react-transition-group@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.0.1.tgz#8cb8d58763e259da465385bb83b3b41b3ecba629"
