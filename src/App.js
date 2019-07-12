@@ -14,8 +14,8 @@ function App() {
                 </h3>
               </div>
               <div className="col-sm-7 headline-section">
-                <h2 style={{ "text-transform": "uppercase"}}>Your Trip experiences sharing community.</h2>
-                <h4>Time Saving. Auto Generate Timeline. Export Meaningful Infographic.</h4>
+                <h1 className="headline-title">Create trip experiences on the fly!</h1>
+                <h4>Time saving. Writing skill is not required. Meaningful infographic as a result.</h4>
               </div>
               <div className="request-notify">
                   <p>Wanted to be notified when we launch the amazing application?</p>
