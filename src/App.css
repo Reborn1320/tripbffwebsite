@@ -31,3 +31,54 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  color: white;
+
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* background-image: url("./images/04.jpg") */
+  background-color: #2E97A1;
+}
+
+.video-embed-container {
+  margin: 2% auto;
+}
+
+.info-container {
+  margin-top: 2%;
+}
+
+.info-child-container {
+  width: 100%;
+  text-align: center;
+}
+
+.headline-section {
+  display: inline-block;  
+  margin-top: 1%;
+}
+
+.request-notify {
+  margin-top: 1%;
+}
+
+.notify-outer-container {
+  display: inline-block;  
+}
+
+.email-field {
+  max-width: 200px;
+  float: left;
+}
+
+.btn-submit-container {
+  float: left;
+  margin-left: 5px;
+}
