@@ -19,17 +19,30 @@ export default class RegisterNotify extends React.Component {
     _registerNotify = () => {
         this.setState({isSubmited: true});
 
-        fetch("http://192.168.42.236:8000/registerNotify", {
+        fetch("/registerNotify", {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
               },
-              mode: 'no-cors',
             body: JSON.stringify({email: this.state.email})
         })                
         .then(res => res.json())
-        .catch(() => {
+        .then(
+            (response) => {
+                toast.success('Registered Successfully!', {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    });
+                this.setState({
+                    isSubmited: false
+                });
+        },
+        (error) => {
             toast.success('Registered Successfully!', {
                 position: "top-right",
                 autoClose: 3000,
@@ -41,8 +54,8 @@ export default class RegisterNotify extends React.Component {
             this.setState({
                 isSubmited: false
             });
-        })
-           
+        }
+        ) 
     }
 
    render() {
