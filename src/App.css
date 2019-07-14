@@ -43,8 +43,11 @@
   min-width: 100%;
   min-height: 100%;
 
-  background-image: url("./images/01.jpg")
-  /* background-color: #2E97A1; */
+  background: url("./images/04.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .video-embed-container {
@@ -60,8 +63,12 @@
   text-align: center;
 }
 
+.app-name-container {
+  margin-top: 1%;
+}
+
 .app-name {
-  color: #2E97A1;
+  color: orange;
 }
 
 .headline-section {

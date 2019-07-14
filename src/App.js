@@ -22,7 +22,7 @@ function Home() {
       <div className="app-container">
           <div className="row info-container">
               <div className="col-sm info-child-container">
-                <div>
+                <div className="app-name-container">
                   <h3>
                       <span className="app-name">TripBFF</span> is coming soon.
                   </h3>
