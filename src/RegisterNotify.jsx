@@ -23,8 +23,7 @@ export default class RegisterNotify extends React.Component {
         fetch(TRIP_URL + "/registerNotify", {
             method: 'POST',
             headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'text/plain'
               },
             body: JSON.stringify({email: this.state.email})
         })                
