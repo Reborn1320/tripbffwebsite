@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import moment from "moment";
+import { TRIP_URL } from "./ServiceConstants";
 
 export default class RegisteredListComponent extends React.Component {
     constructor(props) {
@@ -11,7 +12,7 @@ export default class RegisteredListComponent extends React.Component {
     }
 
     componentDidMount() {
-        fetch("/registerNotify/list")                
+        fetch(TRIP_URL + "/registerNotify/list")                
         .then(res => res.json())
         .then(
             (data) => {

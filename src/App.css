@@ -35,10 +35,11 @@
 .app-container {
   color: white;
 
-  position: fixed; 
+  position: absolute; 
   top: 0; 
   left: 0; 
-
+  overflow-x: hidden;
+  
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;

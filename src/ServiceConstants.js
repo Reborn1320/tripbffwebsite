@@ -1,0 +1,1 @@
+export var TRIP_URL = "http://18.139.115.172:8000"
