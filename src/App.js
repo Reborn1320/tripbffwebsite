@@ -1,5 +1,6 @@
 import React from 'react';
 import playStoreImg from "./images/playstore.png";
+import qrCodeImg from "./images/qrcode.png";
 import './App.css';
 import EmbedsElement from "./EmbedsElement";
 import RegisteredListComponent from "./RegisteredList";
@@ -39,7 +40,7 @@ function Home() {
               <br />
               <div className="app-container__content-qr-code d-none d-md-block">
                 <a href="https://play.google.com/store/apps/details?id=com.tripbff.android" target="_blank">
-                  <img src="http://api.qrserver.com/v1/create-qr-code/?color=333333&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.tripbff.android&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
+                  <img class="qr-code-img" src={qrCodeImg} alt="qr code" />
                 </a>
               </div>
 
