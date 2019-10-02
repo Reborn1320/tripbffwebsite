@@ -1,0 +1,1 @@
+export var TRIP_URL = "https://api.tripbff.com/tripApi/prod/v1"
