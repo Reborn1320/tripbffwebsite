@@ -118,3 +118,8 @@
   background-color: #2E97A1 !important;
   border-color: #2E97A1 !important;
 }
+
+.qr-code-img {
+  max-width: 400px;
+  max-height: 400px;
+}
