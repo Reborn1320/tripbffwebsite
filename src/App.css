@@ -123,3 +123,8 @@
   max-width: 400px;
   max-height: 400px;
 }
+
+.charts-container { 
+  height: 50%!important;
+  width: 50%!important;
+}

@@ -1,1 +1,2 @@
-export var TRIP_URL = "https://api.tripbff.com/tripApi/prod/v1"
+//export var TRIP_URL = "http://trip-api-prod.tripbff.com"
+export var TRIP_URL = "http://192.168.2.103:8000"
