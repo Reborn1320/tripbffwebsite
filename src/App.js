@@ -4,16 +4,24 @@ import qrCodeImg from "./images/qrcode.png";
 import './App.css';
 import EmbedsElement from "./EmbedsElement";
 import RegisteredListComponent from "./RegisteredList";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ChartsComponent from "./Charts";
 
 function App() {
   return (
       <Router>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/register/list" component={RegisteredList} />
-        </div>
-     </Router>
+         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/register/list">
+            <RegisteredList />
+          </Route> 
+          <Route path="/charts">
+            <ChartsComponent />
+          </Route>         
+        </Switch>
+      </Router>
   );
 }
 
@@ -60,5 +68,7 @@ function RegisteredList() {
     <RegisteredListComponent />
   );
 }
+
+
 
 export default App;
